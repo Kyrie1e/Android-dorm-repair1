@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.repairapp">
+
+    <application
+        android:allowBackup="true"
+        android:label="RepairApp"
+        android:supportsRtl="true">
+
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.RepairListActivity" />
+        <activity android:name=".ui.SubmitRepairActivity" />
+        <activity android:name=".ui.RepairDetailActivity" />
+
+        <service
+            android:name=".service.WorkerPollingService"
+            android:exported="false" />
+
+        <provider
+            android:name=".provider.RepairProvider"
+            android:authorities="com.example.repairapp.repair.provider"
+            android:exported="false" />
+    </application>
+
+</manifest>
