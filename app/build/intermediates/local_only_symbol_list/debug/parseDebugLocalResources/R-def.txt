@@ -1,0 +1,34 @@
+R_DEF: Internal format may change without notice
+local
+id button_add
+id button_claim
+id button_done
+id button_login
+id button_register
+id button_submit
+id input_confirm_password
+id input_description
+id input_location
+id input_password
+id input_type
+id input_username
+id radio_group_level
+id radio_group_role
+id radio_level_high
+id radio_level_low
+id radio_level_medium
+id radio_student
+id radio_worker
+id recycler_orders
+id text_description
+id text_handler
+id text_hint
+id text_status
+id text_title
+id text_user_info
+layout activity_login
+layout activity_register
+layout activity_repair_detail
+layout activity_repair_list
+layout activity_submit_repair
+layout item_repair_order

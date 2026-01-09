@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_activity_repair_detail.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\activity_repair_detail.xml"
+    },
+    {
+        "merged": "com.example.repairapp-debug-32:/layout_activity_register.xml.flat",
+        "source": "com.example.repairapp-main-34:/layout/activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_activity_repair_list.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\activity_repair_list.xml"
+    },
+    {
+        "merged": "com.example.repairapp-debug-32:/layout_activity_repair_detail.xml.flat",
+        "source": "com.example.repairapp-main-34:/layout/activity_repair_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_activity_submit_repair.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\activity_submit_repair.xml"
+    },
+    {
+        "merged": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-debug-32:\\layout_item_repair_order.xml.flat",
+        "source": "C:\\Users\\Handsome‘s\\.gradle\\daemon\\8.7\\com.example.repairapp-main-34:\\layout\\item_repair_order.xml"
+    }
+]

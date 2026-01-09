@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:elevation="1dp"
+    android:radius="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- 第一行：标题 + 状态标签 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="类型 - 位置"
+                android:textColor="#111827"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="灯泡 - 1号楼2层" />
+
+            <!-- 状态标签：你 Adapter 继续 setText(text_status) 即可 -->
+            <TextView
+                android:id="@+id/text_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="待接单"
+                android:textColor="#1F2937"
+                android:textSize="12sp"
+                android:background="#EEF2FF"
+                tools:text="处理中" />
+        </LinearLayout>
+
+        <!-- 第二行：接单信息 -->
+        <TextView
+            android:id="@+id/text_handler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="接单师傅：未接单"
+            android:textColor="#6B7280"
+            android:textSize="13sp"
+            tools:text="接单师傅：师傅A" />
+
+        <!-- 分割线 -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#F3F4F6" />
+
+        <!-- 底部提示（可选，不影响逻辑） -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="点击查看详情"
+            android:textColor="#9CA3AF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
